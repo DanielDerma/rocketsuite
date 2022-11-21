@@ -15,6 +15,7 @@ import {
   PopoverCloseButton,
   PopoverAnchor
 } from '@chakra-ui/react'
+
 import Image from 'next/image'
 
 import { Profile } from 'types'
