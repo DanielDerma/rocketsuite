@@ -1,0 +1,39 @@
+{
+  "name": "rocketsuite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint -- --fix",
+    "prettier:check": "npx prettier . --write"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "1.8.8",
+    "@emotion/react": "11.9.0",
+    "@emotion/styled": "11.8.1",
+    "@supabase/supabase-js": "1.35.2",
+    "@twilio/video-processors": "1.0.2",
+    "framer-motion": "3.10.6",
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-hot-toast": "2.2.0",
+    "twilio": "3.76.1",
+    "twilio-video": "2.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.25",
+    "@types/react": "18.0.6",
+    "@types/react-dom": "18.0.2",
+    "@typescript-eslint/eslint-plugin": "5.20.0",
+    "@typescript-eslint/parser": "5.20.0",
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5",
+    "eslint-config-prettier": "8.5.0",
+    "prettier": "2.6.2",
+    "typescript": "4.6.3"
+  }
+}
